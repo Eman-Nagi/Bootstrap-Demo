@@ -1,0 +1,116 @@
+/* start about us  */
+body {
+    margin-top: 70px;
+}
+
+.breadcrumb-holder {
+    background-color: #f5f5f5;
+}
+
+.breadcrumb {
+    padding: 10px 0px;
+    margin: 0;
+
+}
+
+.breadcrumb>.active {
+    font-size: 20px;
+}
+
+.breadcrumb a {
+    font-size: 20px;
+}
+
+.about-us {
+    padding: 70px 0px;
+
+}
+
+.about-us hr {
+    width: 70%;
+}
+
+.about-us img {
+    width: 900px;
+    height: 350px;
+}
+
+.about-features {
+    padding: 0px 0px 70px;
+}
+
+.about-ceo {
+    background-color: #eee;
+    padding-top: 40px;
+}
+
+.about-ceo p .lead {
+    line-height: 1.7;
+}
+
+.about-ceo .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+/* end about us  */
+
+/* start FAQ section */
+.faq {
+    padding: 40px 0px;
+}
+
+.faq .h1 {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.faq .h1~hr {
+    width: 70%;
+}
+
+.panel-heading a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    /*how to catch the content*/
+    float: right;
+    color: #444;
+
+}
+
+.panel-heading a.collapsed:after {
+    content: "\e080";
+    color: #999;
+}
+
+/* end FAQ section */
+
+/* start media Query*/
+@media(max-width:767px) {
+
+    .about-ceo img {
+        margin: 0px auto;
+    }
+
+    .about-ceo p,
+    .about-ceo h2,
+    .about-ceo .btn {
+        margin-left: 22px;
+    }
+
+    .about-ceo h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+}
+
+/* end media Query*/

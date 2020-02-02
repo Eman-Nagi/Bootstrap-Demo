@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- first mobile meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title> design with bootstrap </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="css/purple-theme.css">
+  <link rel="stylesheet" href="css/yellow-theme.css">
+  <link rel="stylesheet" href="css/brown-theme.css">
+  <link rel="stylesheet" href="css/pink-theme.css">
+  <link rel="stylesheet" href="css/default-theme.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js "></script>
+    <script src="js/respond.min.js "></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Start Navbar-->
+
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hvr-pulse-grow" href="#">
+          <i class="fa fa-heart"></i>
+
+          HEman
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- id of data target-->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="hema.html"> Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#"> FAQ</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Web Design </a></li>
+              <li><a href="#">Desktop</a></li>
+              <li role="separator" class="divider"></li> <!-- for horozontal line -->
+              <li><a href="#">Web Hosting</a></li>
+            </ul>
+          </li>
+          <li><a href="#"> Map</a></li>
+          <li><a href="#"> Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!--End Navbar-->
+
+  <!-- start carousel-->
+
+  <div id="myslide" class="carousel slide hidden-xs  carousel-box" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- dots inside slider-->
+    <ol class="carousel-indicators ">
+      <li data-target="#myslide" data-slide-to="0" class="active"></li>
+      <li data-target="#myslide" data-slide-to="1"></li>
+      <li data-target="#myslide" data-slide-to="2"></li>
+      <li data-target="#myslide" data-slide-to="3"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/slider.jpg" alt="pic 1">
+        <div class="carousel-caption hidden-xs">
+          <h2>Computer Programming </h2>
+          <p class="lead">
+            Computer programming is the process of designing and building an executable computer program for
+            accomplishing a
+            specific computing task. Programming involves tasks such as: analysis, generating algorithms, profiling
+            algorithms'
+            accuracy and resource consumption,
+            and the implementation of algorithms in a chosen programming language (commonly referred to as coding).
+          </p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/header.jpg" alt="pic 2">
+        <div class="carousel-caption hidden-xs">
+          <h2> Code Online </h2>
+          <p class="lead">
+            There are many different types of ways to learn including premade learning paths as well
+            as individual courses that can be taken individually. There is something for everyone that is looking
+            to learn to code. These are 25 of the best websites to learn how to code.
+          </p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/slider.jpg" alt="pic 3">
+        <div class="carousel-caption hidden-xs">
+          <h2> Khan Academy </h2>
+          <p class="lead">
+            This site offers education in the form of practice exercises, a personalized learning dashboard,
+            and instructional videos. Students are able to study at their own pace to learn the essentials to coding.
+            There are millions of students from all over the globe with their unique stories that learn through Khan
+            Academy
+          </p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/01.jpg" alt="pic 4">
+        <div class="carousel-caption hidden-xs">
+          <h2> Code School </h2>
+          <p class="lead">
+            This is an interactive learning destination for those who are aspiring or experienced developers.
+            The courses offered by Code School are organized into various Paths, which are based on technology.
+            Students should explore the paths to find the one that is right for them.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- end carousel-->
+  <!-- start section tool box -->
+  <section class="option-box">
+    <div class="color-option">
+      <h4> Color Option</h4>
+      <ul class="list-unstyled">
+        <li data-value="css/default-theme.css"></li>
+        <li data-value="css/purple-theme.css"></li>
+        <li data-value="css/yellow-theme.css"></li>
+        <li data-value="css/brown-theme.css"></li>
+        <li data-value="css/pink-theme.css"></li>
+      </ul>
+    </div>
+    <i class="fa fa-gear fa-3x gear-check"></i>
+  </section>
+
+
+  <!-- end section tool box -->
+
+
+  <!-- start section about-->
+  <section class="about text-center wow bounceIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="500"
+    data-wow-iteration="3">
+    <Div class="container">
+      <h2> This Is Our New Template <span>HEman</span> </h2>
+      <p class="lead">
+        When you are starting your online business you don’t want to waste precious
+        time writing About and Shipping Information pages.
+        You’re lucky today to get to use HEman.
+      </p>
+    </Div>
+  </section>
+  <!-- end section about -->
+
+  <!-- Start Section Features-->
+  <section class="features text-center">
+    <div class="container">
+      <h2> Our Features</h2>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 wow bounceInLeft">
+          <div class="feat">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            <h3> 100% Responsive</h3>
+            <p class="lead">
+              Students will have experienced and engaging instructors that take them through the material with high
+              quality video lessons.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow bounceInDown">
+          <div class="feat">
+            <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+            <h3> 100% Reusable</h3>
+            <p class="lead">
+              The source code of a program is written in one or more languages that are intelligible to programmers,
+              rather than machine code.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow bounceInUp ">
+          <div class="feat">
+            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            <h3> 98% Performance</h3>
+            <p class="lead">Tasks accompanying and related to programming include: testing, debugging,
+              source code maintenance, implementation Systems.</p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3col-md-6 wow bounceInRight">
+          <div class="feat">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <h3> 100% Easy</h3>
+            <p class="lead">These might be considered part of the programming process, but often the term software
+              development is
+              used for this larger process. </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End  Section Features-->
+
+  <!-- start Testimonials section-->
+  <section class="testimonials text-center">
+    <!-- Start container-->
+    <div class="container">
+      <h2> what people say about us?</h2>
+
+      <!-- start testimonials carousel-->
+      <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <p class="lead">Start with your super fans. These are your happiest clients and customers. They may have
+              already offered
+              to be a reference so they won’t mind the request. They might really want to help you!
+            </p>
+            <span> Hema </span>
+
+          </div>
+          <div class="item">
+            <p class="lead">Start with your super fans. These are your happiest clients and customers.
+              They may have already offered to be a reference so they won’t mind the request.
+              They might really want to help you!
+            </p>
+            <span> Eman </span>
+          </div>
+          <div class="item">
+            <p class="lead">Start with your super fans. These are your happiest clients and customers. They may have
+              already offered to be a reference so
+              they won’t mind the request. They might really want to help you!
+            </p>
+            <span> Sara </span>
+          </div>
+
+
+        </div>
+        <!-- new position for indicators after items -->
+        <!-- indicators for section testimonials-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+            <img src="images/01.jpg" alt="pic 4" />
+          </li>
+          <li data-target="#carousel-testimonials" data-slide-to="1">
+            <img src="images/slider.jpg" alt="pic 4" />
+          </li>
+          <li data-target="#carousel-testimonials" data-slide-to="2">
+            <img src="images/01.jpg" alt="pic 4" />
+          </li>
+        </ol>
+        <!-- end indicators for testimonials-->
+
+      </div>
+
+      <!-- end Testimonials carousel-->
+    </div>
+    <!-- End Container-->
+
+  </section>
+
+  <!-- end Testimonials section-->
+
+  <!--Start section Price table-->
+  <section class="price text-center ">
+    <div class="container ">
+      <h2> Our Prices </h2>
+
+
+      <div class="row demo">
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-primary">plan #1</h3>
+            <p class="center-block"> 40$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now </a>
+          </div>
+
+        </div>
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-success">plan #2</h3>
+            <p class="center-block"> 55$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now </a>
+          </div>
+
+        </div>
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-info">plan #3</h3>
+            <p class="center-block"> 73$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now </a>
+          </div>
+
+        </div>
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-danger">plan #4</h3>
+            <p class="center-block"> 65$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now </a>
+          </div>
+
+        </div>
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-primary">plan #5</h3>
+            <p class="center-block"> 90$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now </a>
+          </div>
+
+        </div>
+
+        <div class=" col-md-2 col-sm-6 col-xs-12 wow jello">
+
+          <div class="price-box">
+            <h3 class="text-danger">plan #6</h3>
+            <p class="center-block"> 70$ </p>
+            <ul class="list-unstyled">
+              <li> Space: 30GB</li>
+              <li> Emails: 20</li>
+              <li> IPS: 2ips </li>
+              <li>DataBase: 10</li>
+              <li> Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End section Price table-->
+
+  <!-- Start section our team-->
+  <section class="our-team text-center">
+    <!-- div outside container to fill the whole width of section-->
+    <div class="team">
+      <div class="container">
+        <h2> Meet Our Team </h2>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="member">
+              <img class="img-circle img-thumbnail" src="images/t1.jpg">
+              <h3> Allen</h3>
+              <p> This is Allen The CEO </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="member">
+              <img class="img-circle img-thumbnail" src="images/t2.jpg">
+              <h3> George </h3>
+              <p> This is George The Project Manager </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 ">
+            <div class="member">
+              <img class="img-circle img-thumbnail" src="images/t3.jpeg">
+              <h3> Scarlet </h3>
+              <p> This is Scarlet The Web Developer </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3col-sm-6">
+            <div class="member">
+              <img class="img-circle img-thumbnail" src="images/t4.jpg">
+              <h3> Adam</h3>
+              <p> This is Adam The IOS Developer </p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- end section our team-->
+
+  <!-- Start sction subscribe-->
+  <section class="subscribe text-center">
+    <div class="container">
+      <h2> Keep In Touch</h2>
+      <p class="lead">
+        Sign Up For NewsLetter Don't Worry About Spam
+      </p>
+      <form class="form-inline">
+        <input class="form-control input-lg" type="text" placeholder=" Write Your Email" />
+        <button class="btn btn-danger btn-lg"> Subscribe </button>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- end sction subscribe-->
+
+  <!--  Start section statistics-->
+  <section class="stats text-center">
+    <div class="statistics">
+      <div class="container">
+        <h2> Our Main Statistics</h2>
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="data">
+              <i class="fa fa-users fa-5x"></i>
+              <p> 5.500</p>
+              <span> Satisfied Users</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="data">
+              <i class="fa fa-comments fa-5x"></i>
+              <p>25.236</p>
+              <span> Posted Comments</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="data">
+              <i class="fa fa-suitcase fa-5x"></i>
+              <p>1.325</p>
+              <span> Projects Done </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="data">
+              <i class="fa fa-support fa-5x"></i>
+              <p>285.23</p>
+              <span> Tickets Archived</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  End section statistics-->
+  <!-- Start section our skills-->
+  <section class="skills">
+    <div class="container">
+      <h2 class="text-center">This Our Skills</h2>
+      <!-- start progress skills-->
+      <div class="col-md-5">
+        <div class="skill-rogress">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              HTML5/CSS3
+
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              PHP/MYSQl
+
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100" style="width:65%">
+              JavaScript/ Jquery
+
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95"
+              aria-valuemin="0" aria-valuemax="100" style="width:95%">
+              WordPress
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- end progress skills-->
+
+      <!-- start team info-->
+      <div class="col-md-6 col-md-offset-1">
+        <div class="skill-info">
+          <h2> About the team</h2>
+          <p class="lead">
+            DroneClash may have started off in the Netherlands, but we are an international competition,
+            working to solve an international problem. So wherever you may live, you are welcome to apply for
+            DroneClash.
+          </p>
+          <button class="btn btn-primary">Talk with A Profetional</button>
+        </div>
+
+      </div>
+      <!-- end team info-->
+
+    </div>
+  </section>
+  <!-- end section our skills-->
+  <!-- Start section contact us-->
+  <section class="contact-us text-center">
+    <div class="contact">
+
+      <div class="row">
+        <div class="container">
+          <h2> Contact Us</h2>
+          <p class="lead"> Fell Free To Contact Us Any Time </p>
+          <!-- start contact form-->
+          <form role="form">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="UserName">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control input-lg" placeholder="Your Message"> </textarea>
+              </div>
+              <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+
+            </div>
+
+          </form>
+
+          <!-- End contact form-->
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- end section contact us-->
+  <!-- Start section our clients-->
+  <section class="our-clients text-center">
+    <div class="container">
+      <h2> Our Clients</h2>
+      <div class="row owl-carousel owl-theme">
+
+        <!-- implement owl slider -->
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c1.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c2.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c3.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c4.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c5.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <img src="images/c6.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+        </div>
+        <!-- implement owl slider -->
+
+
+
+
+        <!-- <ul class="list-unstyled">
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c1.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+          </li>
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c2.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+          </li>
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c3.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink ">
+          </li>
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c4.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+          </li>
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c5.jpg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+          </li>
+          <li class="col-md-2 col-xs-6">
+            <img src="images/c6.jpeg" class="img-responsive center-block img-thumbnail img-circle hvr-pulse-shrink">
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </section>
+  <!-- End section our clients-->
+  <!-- start section footer-->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <h3>Sitemap</h3>
+          <ul class="list-unstyled three-columns">
+            <li>Home</li>
+            <li>About</li>
+            <li>Company</li>
+            <li>Code</li>
+            <li>Design</li>
+            <li>Host</li>
+            <li>Solution</li>
+            <li>Sitemap</li>
+            <li>Contact </li>
+          </ul>
+          <ul class="list-unstyled  icons ">
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/facebook.png"></li>
+          </ul>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <h3>Latest Articles</h3>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#" class="pull-left">
+                <img class="media-object" src="images/article.webp" alt="article">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Programming</h4>
+              this is some text descriping smome info about bootstarp
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#" class="pull-left">
+                <img class="media-object" src="images/article.webp" alt="article">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Programming</h4>
+              this is some text descriping smome info about bootstarp
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#" class="pull-left">
+                <img class="media-object" src="images/article.webp" alt="article">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Programming</h4>
+              this is some text descriping smome info about bootstarp
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <h3>Our Awesome Work</h3>
+          <img src="images/work.jpg" alt="work" class="img-thumbnail" />
+          <img src="images/work1.jpeg" alt="work" class="img-thumbnail" />
+          <img src="images/work1.jpeg" alt="work" class="img-thumbnail" />
+          <img src="images/work.jpg" alt="work" class="img-thumbnail" />
+
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright text-center">
+      copyright &copy; 2019 <span>Made With Love By HEman</span>
+    </div>
+  </section>
+  <!-- end section footer-->
+  <!-- start secton loading-->
+  <section class="loading">
+
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+
+  </section>
+  <!-- end secton loading-->
+
+  <!-- start Scroll Top Down  -->
+  <div id="scroll">
+    <i class="fa fa-chevron-up fa-3x"></i>
+  </div>
+  <!-- end Scroll Top Down  -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+</body>
+
+</html>

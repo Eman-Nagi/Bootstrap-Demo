@@ -1,0 +1,11 @@
+@media (max-width:767px){
+    .navbar-inverse .navbar-nav>li>a{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    .subscribe .form-control{
+        margin:20px auto;
+
+    }
+}
